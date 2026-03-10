@@ -9,7 +9,8 @@ export default function Projects() {
                     <div class="col-11 justify-content-center">
                         <h1 className="text-center mt-5 pt-5 mb-5 text-a-glow">Projects</h1>
                     </div>
-                    <div class="col-12 col-md-3 d-flex justify-content-center">
+                    <h1 className="text-center">WORK IN PROGRESS...</h1>
+                    {/* <div class="col-12 col-md-3 d-flex justify-content-center">
                         <Card />
                     </div>
                     <div class="col-12 col-md-3 d-flex justify-content-center">
@@ -17,7 +18,7 @@ export default function Projects() {
                     </div>
                     <div class="col-12 col-md-3 d-flex justify-content-center">
                         <Card />
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </main>
