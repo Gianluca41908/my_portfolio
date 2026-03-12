@@ -27,7 +27,7 @@ export default function Contact() {
                     <div className="col-11 text-center d-flex justify-content-center">
                         <h1 className="text-a-glow">Contact Me</h1>
                     </div>
-                    <div className="col-11 col-md-4 pt-5">
+                    <div className="col-11 col-md-4 pt-2 pt-md-5">
                         <ul className="list-unstyled d-flex flex-column gap-4">
                             <li>
                                 <a
@@ -59,13 +59,13 @@ export default function Contact() {
                         </ul>
 
                     </div>
-                    <div className="col-11 col-md-4 pt-5">
+                    <div className="col-11 col-md-4 pt-2 pt-md-5">
                         <form onSubmit={onSubmit}>
                             <div className="mb-3">
-                                <input type="text" name="name" required placeholder="Name" className="w-100 input-pers" />
+                                <input type="text" name="name" required placeholder="Name" className="w-100 input-pers mx-0" />
                             </div>
                             <div className="mb-3">
-                                <input type="email" name="email" required placeholder="E-mail" className="w-100 input-pers" />
+                                <input type="email" name="email" required placeholder="E-mail" className="w-100 input-pers mx-0" />
                             </div>
                             <div>
                                 <textarea
@@ -73,11 +73,11 @@ export default function Contact() {
                                     required
                                     rows={5}
                                     placeholder="Message"
-                                    className="w-100 area-pers"
+                                    className="w-100 area-pers mx-0"
                                 />
                             </div>
                             <input type="checkbox" name="botcheck" className="hidden d-none"></input>
-                            <button type="submit" className="btn-pers">Send</button>
+                            <button type="submit" className="btn-pers mx-0">Send</button>
                             <p className="text-white mt-2 fs-3">{result}</p>
                         </form>
 
