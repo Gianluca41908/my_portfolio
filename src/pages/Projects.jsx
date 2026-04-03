@@ -2,6 +2,7 @@ import Card from "../components/Card";
 import reactplay from '../assets/ReactPlay.png'
 import rehacktor from '../assets/Rehacktor.png'
 import rebuy from '../assets/rebuy.png'
+import creditflow from '../assets/Creditflow.png'
 import prova from '../assets/prova.jpg'
 import { useState } from "react";
 import Modal from "../components/Modal";
@@ -68,6 +69,23 @@ export default function Projects() {
                             title={'ReBuy'}
                             technologies={'HML, CSS, Bootstrap, PHP, Laravel, MySQL'}
                             image={rebuy}
+                        />
+                    </div>
+                    <div className="col-12 col-md-3 d-flex justify-content-center">
+                        <Card
+                            onClick={() =>
+                                setSelectedProject({
+                                    id: '04',
+                                    title: 'CreditFlow',
+                                    body: 'A Node.js and React-based platform for managing client practices, where users can create, view, and organize practices with filtering, sorting, and detailed information in a clean and user-friendly interface.',
+                                    technologies: 'HML, CSS, Bootstrap, Js, React, NodeJS, Express, MySQL',
+                                    image: creditflow
+                                })
+                            }
+                            id={'04'}
+                            title={'CreditFlow'}
+                            technologies={'HML, CSS, Js, Bootstrap, React, NodeJS, Express, MySQL'}
+                            image={creditflow}
                         />
                     </div>
                     <Modal
